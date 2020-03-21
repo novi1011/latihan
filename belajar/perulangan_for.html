@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Javascript, Perulangan For</title>
+</head>
+<body>
+
+<h2>Perulangan For pada Javascript</h2>
+<h2>Tahap Belajar Semangat Terus!</h2>
+
+<button onclick="perulangan()">TOMBOL</button>
+
+<!-- id hasil -->
+<div id="hasil"></div>
+
+<script type="text/javascript">
+	function perulangan(){
+    var text = "";
+    var x;
+    for (x=0; x<=10; x++){
+    	text+= "Angka" + x + "<br>";
+    }
+    document.getElemenByid("hasil").innerHTML = text;
+	}
+
+</script>
+</body>
+</html>
